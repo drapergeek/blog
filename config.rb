@@ -21,6 +21,7 @@ set :markdown_engine, :redcarpet
 set :relative_links, true
 set :site_name, 'Adarsh Pandit Blog'
 set :trailing_slash, false
+set :fonts_dir, default: "css/fonts", desc: 'The path to the font files'
 
 configure :build do
   activate :asset_hash
